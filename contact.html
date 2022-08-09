@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c0b6919682.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header id="header-home">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/handyman logo.png" alt="My logo" id="logo">
+          <h1 class="header">Handy Naz Man</h1>
+          <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html" >About</a></li>
+            <li><a href="work.html" >Work</a></li>
+            <li><a href="contact.html" class="current"  >Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="contact-a" class="text-center py-3 ">
+      <div class="container">
+        <h2 class="section-title">Contact us</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Here Is How You Can Reach Us</p>
+        <form action="post" method="post" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="contact-fields">
+            <input type="text" class="text-input name-input" placeholder="Name" name="name">
+            <input type="text" class="text-input subject-input" placeholder="Subject" name="subject">
+            <input type="email" class="text-input email-input" placeholder="Email" name="email">
+            <input type="text" class="text-input phone-input" placeholder="Phone Number" name="phone">
+            <textarea name="message" class="text-input message-input" placeholder="Enter Message" name="message"></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="py-1">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact-b" class="py-3 bg-dark">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>info@handynazman.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+            <p>(908) 763-4993</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Address</h3>
+            <p> Main Street.
+              Nazareth PA </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p class="content-p">Copyright &copy; 2021. All Rights Reserved</p>
+        <div class="social">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>      
+    
+
+    
+  </body>
+</html>
